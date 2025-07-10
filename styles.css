@@ -5,7 +5,6 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  color: white;
 }
 
 .header {
@@ -13,6 +12,7 @@ body {
   flex-direction: column;
   padding: 0 40px;
   background-color: #1F2937;
+  color: white;
 }
 
 .header_top {
@@ -88,4 +88,61 @@ body {
   align-items: center;
   font-size: 14px;
   text-align: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 48px;
+}
+
+.information .title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 36px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+
+}
+
+.image-button {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.sq-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: white;
+  border: 2px solid #3882F6;
+  border-radius: 6px;
+}
+
+.testimony {
+  text-align: center;
+  padding: 60px 120px;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: left;
+}
+
+.author {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1F2937;
+  text-align: right;
 }
